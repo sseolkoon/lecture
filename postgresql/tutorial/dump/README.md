@@ -4,7 +4,7 @@ $ createdb --encoding=UTF8 서울연구원
 ```
 또는
 ```sql
-postgres=# CREATE DATABASE 서울연구원 ENCODING='UTF8';
+# CREATE DATABASE 서울연구원 ENCODING='UTF8';
 ```
 
 ## 데이터 복원
