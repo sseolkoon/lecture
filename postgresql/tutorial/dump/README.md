@@ -2,8 +2,9 @@
 ```
 $ createdb -U postgres --encoding=UTF8 서울연구원
 ```
+윈도우즈
 ```
-> cd [postgresql이 설치된 디렉토리안]\bin
+> cd [postgresql이 설치된 디렉토리]\bin
 > createdb.exe -U postgres --encoding=UTF8 서울연구원
 ```
 또는
@@ -15,8 +16,9 @@ $ createdb -U postgres --encoding=UTF8 서울연구원
 ```
 $ psql -U postgres 서울연구원 < 서울연구원.dump
 ```
+윈도우즈
 ```
-> cd [postgresql이 설치된 디렉토리안]\bin
+> cd [postgresql이 설치된 디렉토리]\bin
 > psql.exe -U postgres 서울연구원 < [덤프파일의 path]
 ```
 
