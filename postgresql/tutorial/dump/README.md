@@ -15,7 +15,7 @@ $ createdb -U postgres --encoding=UTF8 si
 
 ## 데이터 복원
 ### 덤프파일 다운로드
-1. 서울연구원.dump 를 클릭
+1. si.dump 를 클릭
 1. 오른쪽 상단에 Raw 클릭
 1. 브라우저의 다른 이름으로 저장(Save As나 Save Page As)이나 Ctrl+s
 
