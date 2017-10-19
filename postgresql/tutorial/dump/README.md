@@ -1,6 +1,10 @@
 ## 데이터베이스 생성
 ```
-$ createdb --encoding=UTF8 서울연구원
+$ createdb -U postgres --encoding=UTF8 서울연구원
+```
+```
+> cd [postgresql이 설치된 디렉토리안]\bin
+> createdb.exe -U postgres --encoding=UTF8 서울연구원
 ```
 또는
 ```sql
@@ -9,7 +13,11 @@ $ createdb --encoding=UTF8 서울연구원
 
 ## 데이터 복원
 ```
-$ psql 서울연구원 < 서울연구원.dump
+$ psql -U postgres 서울연구원 < 서울연구원.dump
+```
+```
+> cd [postgresql이 설치된 디렉토리안]\bin
+> psql.exe -U postgres 서울연구원 < [덤프파일의 path]
 ```
 
 ## 덤프파일 다운로드
